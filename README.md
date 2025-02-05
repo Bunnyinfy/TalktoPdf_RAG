@@ -10,33 +10,6 @@ This is an interactive **Streamlit** application that allows users to upload **P
 - **Chat History** retention across interactions.
 - **Efficient embeddings** using `HuggingFaceEmbedding`.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repo_url>
-   cd <repo_name>
-   ```
-
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # For macOS/Linux
-   venv\Scripts\activate     # For Windows
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-Run the Streamlit application:
-```bash
-streamlit run app.py
-```
-
 ## How It Works
 1. Upload a **PDF document** via the sidebar.
 2. The document is **indexed and embedded** using `ModernBert`.
